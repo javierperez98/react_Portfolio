@@ -1,0 +1,40 @@
+@media only screen and (min-width: 577px) {
+	.mobile-navbar {
+		display: none;
+	}
+	.custom-navbar {
+		display: block;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.custom-navbar {
+		display: none !important;
+	}
+}
+.text-bootstrap {
+	color: #7853b3;
+}
+.text-gitlab {
+	color: #fd6d26;
+}
+.text-js {
+	color: #fddc02;
+}
+.text-react {
+	color: #61dafb;
+}
+.text-git {
+	color: #f64d27;
+}
+.text-github {
+	color: #f0f6fc;
+}
+.bg-custom {
+	background-color: black;
+}
+.bg-gray {
+	background-color: rgb(40, 40, 40);
+}
+* {
+	font-family: "Roboto Mono", monospace;
+}
