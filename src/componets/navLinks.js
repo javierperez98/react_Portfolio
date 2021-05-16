@@ -1,6 +1,6 @@
 function NavLinks() {
 	const arr = [
-		{ link: "#bout-me", text: "About Me" },
+		{ link: "#about-me", text: "About Me" },
 		{ link: "#projects", text: "My Projects" },
 		{ link: "#contact-me", text: "Contact Me" },
 		{
