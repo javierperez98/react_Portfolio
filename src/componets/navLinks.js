@@ -1,21 +1,22 @@
 function NavLinks() {
+	const arr = [
+		{ link: "#bout-me", text: "About Me" },
+		{ link: "#projects", text: "My Projects" },
+		{ link: "#contact-me", text: "Contact Me" },
+		{
+			link:
+				"https://docs.google.com/document/d/117FolzifuTavc4wU3poC1Vd4FT247TOQrqZZIYKNWm4/edit?usp=sharing",
+			text: "My Resume",
+		},
+	];
+	let i = 0;
 	return (
 		<div className="navbar-nav">
-			<a className="nav-link text-white" href="#about-me">
-				About Me
-			</a>
-			<a className="nav-link text-white" href="#projects">
-				My Projects
-			</a>
-			<a className="nav-link text-white" href="#contact-me">
-				Contact Me
-			</a>
-			<a
-				className="nav-link text-white"
-				href="https://docs.google.com/document/d/117FolzifuTavc4wU3poC1Vd4FT247TOQrqZZIYKNWm4/edit?usp=sharing"
-			>
-				My Resume
-			</a>
+			{arr.map((arr) => (
+				<a key={(i += 1)} className="nav-link text-white" href={arr.link}>
+					{arr.text}
+				</a>
+			))}
 		</div>
 	);
 }
