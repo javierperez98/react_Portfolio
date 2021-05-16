@@ -1,3 +1,5 @@
+import Contacts from "./contact";
+
 function Footer() {
 	return (
 		<footer class="d-flex flex-column py-3 bg-gray">
@@ -5,6 +7,7 @@ function Footer() {
 				<i class="fas fa-chevron-left"></i>Contact Me
 				<i class="fas fa-chevron-right"></i>
 			</h4>
+			<Contacts />
 		</footer>
 	);
 }
