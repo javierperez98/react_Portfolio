@@ -1,3 +1,9 @@
+import cacheApp from "./images/cacheapp.png";
+import weatherPage from "./images/weatherPage.png";
+import rocketTrades from "./images/rocket-trades.png";
+import techBlog from "./images/techBlog.png";
+import teamProfileGen from "./images/teamGen.png";
+
 function Projects() {
 	return (
 		<section className="py-3 d-flex flex-column align-items-center" id="projects">
@@ -7,11 +13,7 @@ function Projects() {
 			</h1>
 			<a className="col-md-9 mb-4 p-0" href="https://cache-app-io.herokuapp.com/">
 				<div className="card mx-3">
-					<img
-						src="images/cacheapp.png"
-						alt="Cache App By: Javier Perez"
-						className="p-1"
-					/>
+					<img src={cacheApp} alt="Cache App By: Javier Perez" className="p-1" />
 				</div>
 			</a>
 			<a
@@ -20,7 +22,7 @@ function Projects() {
 			>
 				<div className="card mx-3">
 					<img
-						src="images/weatherPage.png"
+						src={weatherPage}
 						alt="Weather Page App By: Javier Perez"
 						className="p-1"
 					/>
@@ -32,7 +34,7 @@ function Projects() {
 			>
 				<div className="card mx-3">
 					<img
-						src="images/rocket-trades.png"
+						src={rocketTrades}
 						alt="Rocket Trades By: Javier Perez"
 						className="p-1"
 					/>
@@ -40,11 +42,7 @@ function Projects() {
 			</a>
 			<a className="col-md-9 mb-4 p-0" href="https://tech-blog-jp.herokuapp.com/">
 				<div className="card mx-3">
-					<img
-						src="images/techBlog.png"
-						alt="Tech Blog By: Javier Perez"
-						className="p-1"
-					/>
+					<img src={techBlog} alt="Tech Blog By: Javier Perez" className="p-1" />
 				</div>
 			</a>
 			<a
@@ -53,7 +51,7 @@ function Projects() {
 			>
 				<div className="card mx-3">
 					<img
-						src="images/teamGen.png"
+						src={teamProfileGen}
 						alt="Team Profile Maker By: Javier Perez"
 						className="p-1"
 					/>
