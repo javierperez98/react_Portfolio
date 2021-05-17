@@ -1,13 +1,5 @@
-import About from "./about";
-import Projects from "./projects";
-
-function Main() {
-	return (
-		<main className="bg-custom pb-3">
-			<About />
-			<Projects />
-		</main>
-	);
+function Main(props) {
+	return <main className="bg-custom">{props.children}</main>;
 }
 
 export default Main;
