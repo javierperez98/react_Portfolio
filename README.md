@@ -59,13 +59,14 @@ npm start
 <!-- List your collaborators, if any, with links to their GitHub profiles. Links to websites or resources. -->
 
 - https://www.google.com
-- https://developer.mozilla.org/en-US/
-- https://getbootstrap.com/
-- https://www.w3schools.com/css/
-- https://html5.validator.nu/
-- https://jigsaw.w3.org/css-validator/
+- https://developer.mozilla.org/en-US
+- https://getbootstrap.com
+- https://www.w3schools.com
 - https://dev.to/
-- https://css-tricks.com/
+- https://create-react-app.dev/
+- https://reactrouter.com/web/guides/quick-start
+- https://reactjs.org/
+- https://stackoverflow.com/
 
 ## `License`
 
