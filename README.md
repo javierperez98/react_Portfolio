@@ -1,15 +1,15 @@
-# Portfolio
+# `React Portfolio`
 
 ![MIT](https://img.shields.io/github/license/microsoft/vscode)
 
-## Description
+## `Description`
 
 <!-- Provide a short description explaining the what, why, and how of your project.
 What was your motivation? Why did you build this project? What problem does it solve? What did you learn? -->
 
-- My portfilo was created using Bootstrap v4. I really enjoyed testing myself to build a layout and design from scratch using.
+- My portfilo was created using React.js and Bootstrap v4. I really enjoyed testing myself to build a layout and design from scratch using what I know about Bootstrap and using a frame work like React.js to make it componet based.
 
-## Table of Contents
+## `Table of Contents`
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -17,18 +17,35 @@ What was your motivation? Why did you build this project? What problem does it s
 - [License](#license)
 - [Questions](#questions)
 
-## Installation
+## `Installation`
 
 <!-- What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. -->
 
-- To install copy and paste either the SSH or HTTPS key and run it in either Bash (PC Users) or Terminal (MAC Users) using the git clone command.
+To install copy and paste either the SSH or HTTPS key and run it in either Bash (PC Users) or Terminal (MAC Users) using the git clone command.
+
+- SSH key:
 
 ```md
-SSH key: git clone git@github.com:javierperez98/firstPortfolio.git
-HTTPS key : git clone https://github.com/javierperez98/firstPortfolio.git
+git clone git@github.com:javierperez98/react_Portfolio.git
 ```
 
-## Usage
+- HTTPS key:
+
+```md
+git clone https://github.com/javierperez98/react_Portfolio.git
+```
+
+Next you'll have to install all the required node modules by opening the index.js file using terminal/bash and typing in the following command.
+
+```md
+npm i
+or
+npm install
+and then
+npm start
+```
+
+## `Usage`
 
 <!-- Provide instructions and examples for use. Include screenshots as needed. -->
 
@@ -37,7 +54,7 @@ HTTPS key : git clone https://github.com/javierperez98/firstPortfolio.git
 - My projects section shows two of my group projects and three app I created each using languages I know or a combination of them all.
 - The contact me section have links to my github profile, linkedin, and email to contact me.
 
-## Credits
+## `Credits`
 
 <!-- List your collaborators, if any, with links to their GitHub profiles. Links to websites or resources. -->
 
@@ -50,7 +67,7 @@ HTTPS key : git clone https://github.com/javierperez98/firstPortfolio.git
 - https://dev.to/
 - https://css-tricks.com/
 
-## License
+## `License`
 
 <!-- If you need help choosing a license, refer to https://choosealicense.com/ -->
 
@@ -76,7 +93,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Questions
+## `Questions`
 
 Contact me for any questions you might have.
 
