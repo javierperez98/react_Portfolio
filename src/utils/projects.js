@@ -1,9 +1,9 @@
-import CacheApp from "../images/cache-app.png";
-import EmployeeDirectory from "../images/employee-directory.png";
-import FitnessTracker from "../images/fitness-tracker.png";
-import TechBlog from "../images/tech-blog.png";
-import WeatherPage from "../images/weather-page.png";
-import RocketTrades from "../images/rocket-trades.png";
+import CacheApp from "../componets/images/cache-app.png";
+import EmployeeDirectory from "../componets/images/employee-directory.png";
+import FitnessTracker from "../componets/images/fitness-tracker.png";
+import TechBlog from "../componets/images/tech-blog.png";
+import WeatherPage from "../componets/images/weather-page.png";
+import RocketTrades from "../componets/images/rocket-trades.png";
 
 const arr = [
 	{

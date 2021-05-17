@@ -1,4 +1,4 @@
-import arr from "./utils/navLinks";
+import arr from "../utils/navLinks";
 
 function NavLinks() {
 	let i = 0;

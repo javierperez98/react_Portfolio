@@ -1,4 +1,4 @@
-import arr from "./utils/projects.js";
+import arr from "../utils/projects.js";
 
 function Projects() {
 	let i = 0;

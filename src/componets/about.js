@@ -1,5 +1,5 @@
 import selfPic from "./images/self.png";
-import arr from "./utils/icons";
+import arr from "../utils/icons";
 
 function About() {
 	return (
