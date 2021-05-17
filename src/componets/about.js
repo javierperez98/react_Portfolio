@@ -2,6 +2,7 @@ import selfPic from "./images/self.png";
 import arr from "../utils/icons";
 
 function About() {
+	let i = 0;
 	return (
 		<section className="py-5" id="about-me">
 			<h1 className="text-warning text-center py-5">
@@ -37,7 +38,7 @@ function About() {
 				<div className="text-white text-center col-md-6">
 					<h2 className="text-warning">Skills</h2>
 					{arr.map((arr) => {
-						return <i className={arr.icon}></i>;
+						return <i key={(i += 1)} className={arr.icon}></i>;
 					})}
 					<div className="about-me pt-4">
 						<h5 className="text-warning">Background</h5>
