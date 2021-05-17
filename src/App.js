@@ -15,14 +15,14 @@ function App() {
 				<Home to="/" />
 			</Route>
 			<Main>
-				<Route exact path="/react_Portfolio/about">
-					<About />
+				<Route exact path="/about">
+					<About to="/about" />
 				</Route>
-				<Route exact path="/react_Portfolio/projects">
-					<Projects />
+				<Route exact path="/projects">
+					<Projects to="/projects" />
 				</Route>
-				<Route exact path="/react_Portfolio/resume">
-					<Resume />
+				<Route exact path="/resume">
+					<Resume to="/resume" />
 				</Route>
 			</Main>
 			<Footer />
