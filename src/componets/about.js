@@ -1,4 +1,5 @@
 import selfPic from "./images/self.png";
+import arr from "./utils/icons";
 
 function About() {
 	return (
@@ -35,18 +36,9 @@ function About() {
 				</div>
 				<div className="text-white text-center col-md-6">
 					<h2 className="text-warning">Skills</h2>
-					<i className="p-1 fab fa-html5 fa-2x text-danger"></i>
-					<i className="p-1 fab fa-css3-alt fa-2x text-primary"></i>
-					<i className="p-1 fab fa-js-square fa-2x text-js"></i>
-					<i className="p-1 fab fa-react fa-2x text-react"></i>
-					<i className="p-1 fab fa-node-js fa-2x text-success"></i>
-					<i className="p-1 fab fa-npm fa-2x text-white"></i>
-					<i className="p-1 fab fa-bootstrap fa-2x text-bootstrap"></i>
-					<i className="p-1 fab fa-git-square fa-2x text-git"></i>
-					<i className="p-1 fab fa-gitlab fa-2x text-gitlab"></i>
-					<i className="p-1 fab fa-github fa-2x text-github"></i>
-					<i className="p-1 fas fa-database fa-2x text-secondary"></i>
-					<i className="p-1 fas fa-server fa-2x text-white"></i>
+					{arr.map((arr) => {
+						return <i className={arr.icon}></i>;
+					})}
 					<div className="about-me pt-4">
 						<h5 className="text-warning">Background</h5>
 						<p className="text-white text-left">
