@@ -11,17 +11,17 @@ function App() {
 	return (
 		<Router>
 			<Navbar />
-			<Route exact path="/react_Portfolio">
+			<Route exact path="/">
 				<Home />
 			</Route>
 			<Main>
-				<Route exact path="/react_Portfolio/about">
+				<Route exact path="/about">
 					<About />
 				</Route>
-				<Route exact path="/react_Portfolio/projects">
+				<Route exact path="/projects">
 					<Projects />
 				</Route>
-				<Route exact path="/react_Portfolio/resume">
+				<Route exact path="/resume">
 					<Resume />
 				</Route>
 			</Main>

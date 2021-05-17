@@ -1,9 +1,11 @@
+import { NavLink } from "react-router-dom";
+
 function NavHome() {
 	return (
 		<h2 className="nav-link m-0">
-			<a className="nav-link p-0 text-white" href="/react_Portfolio">
+			<NavLink className="nav-link p-0 text-white" to="/">
 				Home
-			</a>
+			</NavLink>
 		</h2>
 	);
 }

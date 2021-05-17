@@ -1,14 +1,18 @@
 import arr from "../utils/navLinks";
+import { NavLink } from "react-router-dom";
 
 function NavLinks() {
 	let i = 0;
 	return (
 		<div className="navbar-nav">
 			{arr.map((arr) => (
-				<a key={(i += 1)} className="nav-link text-white" href={arr.link}>
+				<NavLink key={(i += 1)} className="nav-link text-white" to={arr.link}>
 					{arr.text}
-				</a>
+				</NavLink>
 			))}
+			<a className="nav-link text-white" href="#contact-me">
+				Contact Me
+			</a>
 		</div>
 	);
 }
