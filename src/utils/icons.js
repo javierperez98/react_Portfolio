@@ -1,16 +1,16 @@
 const arr = [
-	{ icon: "p-1 fab fa-html5 fa-2x text-danger" },
-	{ icon: "p-1 fab fa-css3-alt fa-2x text-primary" },
-	{ icon: "p-1 fab fa-js-square fa-2x text-js" },
-	{ icon: "p-1 fab fa-react fa-2x text-react" },
-	{ icon: "p-1 fab fa-node-js fa-2x text-success" },
-	{ icon: "p-1 fab fa-npm fa-2x text-white" },
-	{ icon: "p-1 fab fa-bootstrap fa-2x text-bootstrap" },
-	{ icon: "p-1 fab fa-git-square fa-2x text-git" },
-	{ icon: "p-1 fab fa-gitlab fa-2x text-gitlab" },
-	{ icon: "p-1 fab fa-github fa-2x text-github" },
-	{ icon: "p-1 fas fa-database fa-2x text-secondary" },
-	{ icon: "p-1 fas fa-server fa-2x text-white" },
+	{ icon: "fab fa-html5", color: "text-danger" },
+	{ icon: "fab fa-css3-alt", color: "text-primary" },
+	{ icon: "fab fa-js-square", color: "text-js" },
+	{ icon: "fab fa-react", color: "text-react" },
+	{ icon: "fab fa-node-js", color: "text-success" },
+	{ icon: "fab fa-npm", color: "text-white" },
+	{ icon: "fab fa-bootstrap", color: "text-bootstrap" },
+	{ icon: "fab fa-git-square", color: "text-git" },
+	{ icon: "fab fa-gitlab", color: "text-gitlab" },
+	{ icon: "fab fa-github", color: "text-github" },
+	{ icon: "fas fa-database", color: "text-secondary" },
+	{ icon: "fas fa-server", color: "text-white" },
 ];
 
 export default arr;
