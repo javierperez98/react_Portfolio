@@ -10,8 +10,11 @@ function NavLinks() {
 					{arr.text}
 				</NavLink>
 			))}
-			<a className="nav-link text-white" href="#contact-me">
-				Contact Me
+			<a
+				className="nav-link text-white"
+				href="https://docs.google.com/document/d/117FolzifuTavc4wU3poC1Vd4FT247TOQrqZZIYKNWm4/edit?usp=sharing"
+			>
+				My Resume
 			</a>
 		</div>
 	);
