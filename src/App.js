@@ -5,7 +5,6 @@ import Main from "./componets/main";
 import Footer from "./componets/footer";
 import Projects from "./componets/projects";
 import About from "./componets/about";
-import Resume from "./componets/resume";
 
 function App() {
 	return (
@@ -20,9 +19,6 @@ function App() {
 				</Route>
 				<Route exact path="/projects">
 					<Projects />
-				</Route>
-				<Route exact path="/resume">
-					<Resume />
 				</Route>
 			</Main>
 			<Footer />
