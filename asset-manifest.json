@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react_Portfolio/static/css/main.302a4c35.chunk.css",
-    "main.js": "/react_Portfolio/static/js/main.0dee0578.chunk.js",
-    "main.js.map": "/react_Portfolio/static/js/main.0dee0578.chunk.js.map",
+    "main.js": "/react_Portfolio/static/js/main.e7042ae2.chunk.js",
+    "main.js.map": "/react_Portfolio/static/js/main.e7042ae2.chunk.js.map",
     "runtime-main.js": "/react_Portfolio/static/js/runtime-main.1cb6fb75.js",
     "runtime-main.js.map": "/react_Portfolio/static/js/runtime-main.1cb6fb75.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/react_Portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -17,7 +17,6 @@
     "static/media/cache-app.d047202a.png": "/react_Portfolio/static/media/cache-app.d047202a.png",
     "static/media/employee-directory.b53d5dbb.png": "/react_Portfolio/static/media/employee-directory.b53d5dbb.png",
     "static/media/fitness-tracker.08c7741f.png": "/react_Portfolio/static/media/fitness-tracker.08c7741f.png",
-    "static/media/resume.2f610d1e.png": "/react_Portfolio/static/media/resume.2f610d1e.png",
     "static/media/rocket-trades.eb38813b.png": "/react_Portfolio/static/media/rocket-trades.eb38813b.png",
     "static/media/self.c071297f.png": "/react_Portfolio/static/media/self.c071297f.png",
     "static/media/tech-blog.ac06ce1c.png": "/react_Portfolio/static/media/tech-blog.ac06ce1c.png",
@@ -28,6 +27,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.f641f423.chunk.js",
     "static/css/main.302a4c35.chunk.css",
-    "static/js/main.0dee0578.chunk.js"
+    "static/js/main.e7042ae2.chunk.js"
   ]
 }
