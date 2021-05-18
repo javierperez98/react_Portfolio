@@ -38,7 +38,9 @@ function About() {
 				<div className="text-white text-center col-md-6">
 					<h2 className="text-warning">Skills</h2>
 					{arr.map((arr) => {
-						return <i key={(i += 1)} className={arr.icon}></i>;
+						return (
+							<i key={(i += 1)} className={`${arr.icon} ${arr.color} p-1 fa-2x`}></i>
+						);
 					})}
 					<div className="about-me pt-4">
 						<h5 className="text-warning">Background</h5>
