@@ -1,6 +1,17 @@
 # `React Portfolio`
 
-![MIT](https://img.shields.io/github/license/microsoft/vscode)
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/javierperez98/react_Portfolio" />
+    <img src="https://img.shields.io/github/languages/top/javierperez98/react_Portfolio"  />
+    <img src="https://img.shields.io/github/last-commit/javierperez98/react_Portfolio" >
+    <a href="https://github.com/javierperez98"><img src="https://img.shields.io/github/followers/javierperez98?style=social" target="_blank" /></a>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/language-Javascript-yellow" />
+    <img src="https://img.shields.io/badge/language-React-blue" />
+    <img src="https://img.shields.io/badge/license-MIT-blue" />
+    <img src="https://img.shields.io/tokei/lines/github/javierperez98/react_Portfolio" />
+</p>
 
 ## `Description`
 
