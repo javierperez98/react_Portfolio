@@ -13,6 +13,8 @@ function NavLinks() {
 			<a
 				className="nav-link text-white"
 				href="https://docs.google.com/document/d/117FolzifuTavc4wU3poC1Vd4FT247TOQrqZZIYKNWm4/edit?usp=sharing"
+				target="_blank"
+				rel="noopener noreferrer"
 			>
 				My Resume
 			</a>
