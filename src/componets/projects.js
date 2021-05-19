@@ -13,7 +13,7 @@ function Projects() {
 				className="carousel slide bg-custom col-xl-6 col-lg-8 col-md-9 col-sm-10 col-12"
 				data-ride="carousel"
 			>
-				<ol className="carousel-indicators bg-custom m-0">
+				<ol className="carousel-indicators">
 					<li
 						data-target="#carouselProjects"
 						data-slide-to="0"
@@ -26,15 +26,24 @@ function Projects() {
 				<div className="carousel-inner">
 					{arr.map((arr) => (
 						<div key={i++} className={`carousel-item ${arr.active}`}>
-							<div className="text-center text-white">
-								<p>{arr.dis}</p>
-							</div>
 							<a href={arr.link} target="_blank" rel="noopener noreferrer">
 								<img
 									src={arr.pic}
 									className="w-100 custom-img"
 									alt={`${arr.name} By: Javier Perez`}
 								/>
+
+								<div class="carousel-caption d-none d-block">
+									<a
+										className="text-decoration-none text-white"
+										href={arr.repo}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<h5>{`Repo: ${arr.name}`}</h5>
+									</a>
+									<p>{arr.dis}</p>
+								</div>
 							</a>
 						</div>
 					))}
@@ -47,12 +56,7 @@ function Projects() {
 						role="button"
 						data-slide={pv}
 					>
-						<div className="bg-custom p-2 rounded-circle">
-							<span
-								className={`carousel-control-${pv}-icon`}
-								aria-hidden="true"
-							></span>
-						</div>
+						<span className={`carousel-control-${pv}-icon`} aria-hidden="true"></span>
 					</a>
 				))}
 			</div>
