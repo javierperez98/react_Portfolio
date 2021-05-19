@@ -29,7 +29,7 @@ function Projects() {
 							<a href={arr.link} target="_blank" rel="noopener noreferrer">
 								<img
 									src={arr.pic}
-									className="d-block w-100 opacity"
+									className="d-block w-100 custom-img"
 									alt={`${arr.name} By: Javier Perez`}
 								/>
 							</a>
