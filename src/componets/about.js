@@ -1,13 +1,13 @@
 import selfPic from "./images/self.png";
 import arr from "../utils/icons";
+import Title from "./title";
 
 function About() {
 	let i = 0;
 	return (
-		<section className="py-5" id="about-me">
+		<section className="min-vh-100 py-5">
 			<h1 className="text-warning text-center py-5">
-				<i className="fas fa-chevron-left"></i>About Me
-				<i className="fas fa-chevron-right"></i>
+				<Title>About Me/</Title>
 			</h1>
 			<div className="container row col-sm-12 col-md-9 m-auto px-0">
 				<div className="col-md-6">
@@ -37,11 +37,9 @@ function About() {
 				</div>
 				<div className="text-white text-center col-md-6">
 					<h2 className="text-warning">Skills</h2>
-					{arr.map((arr) => {
-						return (
-							<i key={(i += 1)} className={`${arr.icon} ${arr.color} p-1 fa-2x`}></i>
-						);
-					})}
+					{arr.map((arr) => (
+						<i key={(i += 1)} className={`${arr.icon} ${arr.color} p-1 fa-3x`}></i>
+					))}
 					<div className="about-me pt-4">
 						<h5 className="text-warning">Background</h5>
 						<p className="text-white text-left">
