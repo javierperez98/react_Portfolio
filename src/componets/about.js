@@ -12,16 +12,14 @@ function About() {
 			<div className="container row col-sm-12 col-md-9 m-auto px-0">
 				<div className="col-md-6">
 					<div className="row">
-						<div className="col-8 col-lg-6 mx-auto mx-md-0 mb-3">
-							<div className="about-img">
-								<img
-									src={selfPic}
-									className="img-fluid rounded-circle border border-white"
-									alt="Javier Perez"
-								/>
-							</div>
+						<div className="about-img col-8 col-sm-6 col-md-8 col-lg-6 mx-auto mx-md-0 mb-3">
+							<img
+								src={selfPic}
+								className="img-fluid rounded-circle border border-white"
+								alt="Javier Perez"
+							/>
 						</div>
-						<div className="col-12 col-lg-6">
+						<div className="col-12 col-sm-12 col-md-12 col-lg-6">
 							<div className="text-white">
 								<p className=" text-warning">Name:</p>
 								<p>Javier Perez</p>
