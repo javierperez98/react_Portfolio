@@ -13,7 +13,7 @@ function Projects() {
 				className="carousel slide bg-custom col-xl-6 col-lg-8 col-md-9 col-sm-10 col-12"
 				data-ride="carousel"
 			>
-				<ol className="carousel-indicators">
+				<ol className="carousel-indicators bg-custom m-0">
 					<li
 						data-target="#carouselProjects"
 						data-slide-to="0"
@@ -26,17 +26,17 @@ function Projects() {
 				<div className="carousel-inner">
 					{arr.map((arr) => (
 						<div key={i++} className={`carousel-item ${arr.active}`}>
-							<a href={arr.link} target="_blank" rel="noopener noreferrer">
-								<img
-									src={arr.pic}
-									className="d-block w-100 custom-img"
-									alt={`${arr.name} By: Javier Perez`}
-								/>
-							</a>
-							<div className="carousel-caption d-none d-md-block">
+							<div className="text-center text-white">
 								<h5>{arr.name}</h5>
 								<p>{arr.dis}</p>
 							</div>
+							<a href={arr.link} target="_blank" rel="noopener noreferrer">
+								<img
+									src={arr.pic}
+									className="w-100 custom-img"
+									alt={`${arr.name} By: Javier Perez`}
+								/>
+							</a>
 						</div>
 					))}
 				</div>
