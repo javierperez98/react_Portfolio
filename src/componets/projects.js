@@ -27,7 +27,6 @@ function Projects() {
 					{arr.map((arr) => (
 						<div key={i++} className={`carousel-item ${arr.active}`}>
 							<div className="text-center text-white">
-								<h5>{arr.name}</h5>
 								<p>{arr.dis}</p>
 							</div>
 							<a href={arr.link} target="_blank" rel="noopener noreferrer">
@@ -43,12 +42,17 @@ function Projects() {
 				{["prev", "next"].map((pv) => (
 					<a
 						key={pv}
-						className={`carousel-control-${pv}`}
+						className={`carousel-control-${pv} mx-3`}
 						href="#carouselProjects"
 						role="button"
 						data-slide={pv}
 					>
-						<span className={`carousel-control-${pv}-icon`} aria-hidden="true"></span>
+						<div className="bg-custom p-2 rounded-circle">
+							<span
+								className={`carousel-control-${pv}-icon`}
+								aria-hidden="true"
+							></span>
+						</div>
 					</a>
 				))}
 			</div>
