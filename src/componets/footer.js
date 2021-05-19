@@ -1,11 +1,11 @@
 import Contacts from "./contact";
+import Title from "./title";
 
 function Footer() {
 	return (
 		<footer className="d-flex flex-column py-5 bg-gray align-items-center">
-			<h2 id="contact-me" className="text-danger text-center mb-4">
-				<i className="fas fa-chevron-left"></i>Contact Me
-				<i className="fas fa-chevron-right"></i>
+			<h2 className="text-danger text-center mb-4">
+				<Title>Contact Me/</Title>
 			</h2>
 			<Contacts />
 			<h5 className="text-white text-center my-5">Javier Perez</h5>
