@@ -1,4 +1,3 @@
-import { HashRouter as Router, Route } from "react-router-dom";
 import Navbar from "./componets/navbar";
 import Home from "./componets/home";
 import Main from "./componets/main";
@@ -8,21 +7,15 @@ import About from "./componets/about";
 
 function App() {
 	return (
-		<Router basename="/react_Portfolio">
+		<>
 			<Navbar />
-			<Route exact path="/">
-				<Home />
-			</Route>
+			<Home />
 			<Main>
-				<Route exact path="/about">
-					<About />
-				</Route>
-				<Route exact path="/projects">
-					<Projects />
-				</Route>
+				<About />
+				<Projects />
 			</Main>
 			<Footer />
-		</Router>
+		</>
 	);
 }
 
