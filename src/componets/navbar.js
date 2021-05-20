@@ -1,10 +1,11 @@
 import React from "react";
 import NavLinks from "./navLinks";
 import NavHome from "./navHome";
+import Fade from "react-reveal/Fade";
 
 function Navbar() {
 	return (
-		<>
+		<Fade top>
 			<nav className="navbar navbar-expand-sm d-flex navbar-dark bg-custom justify-content-between custom-navbar fixed-top p-2">
 				<NavHome />
 				<NavLinks />
@@ -32,7 +33,7 @@ function Navbar() {
 					</div>
 				</div>
 			</nav>
-		</>
+		</Fade>
 	);
 }
 
