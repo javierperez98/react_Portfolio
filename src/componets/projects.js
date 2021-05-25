@@ -37,19 +37,19 @@ function Projects() {
 										className="w-100 custom-img"
 										alt={`${arr.name} By: Javier Perez`}
 									/>
-
-									<div class="carousel-caption d-none d-block">
-										<a
-											className="text-decoration-none text-white"
-											href={arr.repo}
-											target="_blank"
-											rel="noopener noreferrer"
-										>
-											<h5>{`Repo: ${arr.name}`}</h5>
-										</a>
-										<p>{arr.dis}</p>
-									</div>
 								</a>
+
+								<div className="carousel-caption d-none d-block">
+									<a
+										className="text-decoration-none text-white"
+										href={arr.repo}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<h5>{`Repo: ${arr.name}`}</h5>
+									</a>
+									<p>{arr.dis}</p>
+								</div>
 							</div>
 						))}
 					</div>
