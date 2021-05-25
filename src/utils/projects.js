@@ -11,7 +11,6 @@ const arr = [
 		repo: "https://github.com/UnDuhDuhSea/CacheApp",
 		pic: CacheApp,
 		name: "Cache App",
-		active: "active",
 		dis: "Budgeting made simplier, Sign up now!",
 	},
 	{
@@ -19,7 +18,6 @@ const arr = [
 		repo: "https://github.com/javierperez98/employee_directory",
 		pic: EmployeeDirectory,
 		name: "Employee Directory",
-		active: "",
 		dis: "Directory to search and sort built with React.js!",
 	},
 	{
@@ -27,7 +25,6 @@ const arr = [
 		repo: "https://github.com/javierperez98/fitness_app",
 		pic: FitnessTracker,
 		name: "Fitness Tracker",
-		active: "",
 		dis: "Track and manage your fitness goals!",
 	},
 	{
@@ -35,7 +32,6 @@ const arr = [
 		repo: "https://github.com/javierperez98/Tech_Blog",
 		pic: TechBlog,
 		name: "TechBlog App",
-		active: "",
 		dis: "Sign up and post to the Blog site!",
 	},
 	{
@@ -43,7 +39,6 @@ const arr = [
 		repo: "https://github.com/javierperez98/weatherPage",
 		pic: WeatherPage,
 		name: "WeatherPage App",
-		active: "",
 		dis: "Weather forecast App for any city you search!",
 	},
 	{
@@ -51,7 +46,6 @@ const arr = [
 		repo: "https://github.com/DanCarrillo93/Rocket-Trades",
 		pic: RocketTrades,
 		name: "RocketTrades",
-		active: "",
 		dis: "Track and follow your favorite Stocks and Crypto!",
 	},
 ];
