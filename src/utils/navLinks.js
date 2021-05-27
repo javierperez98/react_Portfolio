@@ -1,7 +1,7 @@
 const arr = [
-	{ target: "", rel: "", link: "/home/#about", text: "About Me" },
-	{ target: "", rel: "", link: "/home/#projects", text: "My Projects" },
-	{ target: "", rel: "", link: "/home/#contact", text: "Contact Me" },
+	{ target: "", rel: "", link: "about", text: "About Me" },
+	{ target: "", rel: "", link: "projects", text: "My Projects" },
+	{ target: "", rel: "", link: "contact", text: "Contact Me" },
 	{
 		target: "_blank",
 		rel: "noopener noreferrer",
