@@ -1,9 +1,17 @@
+import { Link } from "react-scroll";
+
 function NavHome() {
 	return (
 		<h2 className="nav-link m-0">
-			<a className="nav-link p-0 text-white" href="#home">
+			<Link
+				style={{ cursor: "pointer" }}
+				className="nav-link p-0 text-white"
+				to="home"
+				spy={true}
+				smooth={true}
+			>
 				Home
-			</a>
+			</Link>
 		</h2>
 	);
 }
