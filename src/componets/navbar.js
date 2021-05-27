@@ -10,7 +10,7 @@ function Navbar() {
 				<NavHome />
 				<NavLinks />
 			</nav>
-			<nav className="fixed-top mobile-navbar">
+			<nav className="fixed-top mobile-navbar border-bottom border-white">
 				<div className="navbar navbar-dark bg-custom d-flex align-items-center p-3">
 					<NavHome />
 					<button
