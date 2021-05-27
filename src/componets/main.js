@@ -1,5 +1,5 @@
-function Main(props) {
-	return <main className="bg-custom">{props.children}</main>;
+function Main({ children }) {
+	return <main className="bg-custom">{children}</main>;
 }
 
 export default Main;
