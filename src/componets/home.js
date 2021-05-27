@@ -1,11 +1,13 @@
 import Fade from "react-reveal/Fade";
 import Flash from "react-reveal/Flash";
+import ParticlesBg from "particles-bg";
 
 function Home() {
 	return (
 		<Fade bottom cascade delay={500}>
+			<ParticlesBg color="ffffff" type="cobweb" bg={true} />
 			<header
-				className="vh-100 bg-custom flex-column d-flex justify-content-center"
+				className="vh-100 flex-column d-flex justify-content-center"
 				id="home"
 			>
 				<h1 className="text-warning text-center my-3 mx-auto">
