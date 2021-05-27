@@ -7,10 +7,10 @@ function Home() {
 		<Fade bottom cascade delay={500}>
 			<ParticlesBg color="ffffff" type="cobweb" bg={true} />
 			<header
-				className="vh-100 flex-column d-flex justify-content-center"
+				className="vh-100 flex-column d-flex justify-content-center border border-white"
 				id="home"
 			>
-				<h1 className="text-warning text-center my-3 mx-auto">
+				<h1 className="text-warning text-center my-3 mx-auto display-4">
 					<i className="fas fa-chevron-left"></i>Hello!/
 					<i className="fas fa-chevron-right"></i>
 				</h1>

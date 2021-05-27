@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 function Navbar() {
 	return (
 		<Fade top>
-			<nav className="navbar navbar-expand-sm d-flex navbar-dark bg-custom justify-content-between custom-navbar fixed-top p-2">
+			<nav className="navbar navbar-expand-sm d-flex navbar-dark bg-custom justify-content-between custom-navbar fixed-top p-2 border-bottom border-white">
 				<NavHome />
 				<NavLinks />
 			</nav>
