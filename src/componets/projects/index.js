@@ -12,15 +12,19 @@ function Projects() {
 				<div className="row gx-0 mb-4 mb-lg-5 align-items-center">
 					<Fade left delay={500}>
 						<div className="col-xl-8 col-lg-7">
-							<img
-								className="img-fluid mb-3 mb-lg-0"
-								src={user.pro1.pic}
-								alt={user.pro1.title}
-							/>
+							<a href={user.pro1.link} target="__blank">
+								<img
+									className="img-fluid mb-3 mb-lg-0"
+									src={user.pro1.pic}
+									alt={user.pro1.title}
+								/>
+							</a>
 						</div>
 						<div className="col-xl-4 col-lg-5">
 							<div className="featured-text text-center text-lg-left">
-								<h4>{user.pro1.title}</h4>
+								<a href={user.pro1.repo} target="__blank">
+									<h4>{user.pro1.title}</h4>
+								</a>
 								<p className="text-black-50 mb-0">{user.pro1.dis}</p>
 							</div>
 						</div>
@@ -30,21 +34,29 @@ function Projects() {
 					pic1={user.pro2.pic}
 					alt1={user.pro2.title}
 					title1={user.pro2.title}
+					link1={user.pro2.link}
+					repo1={user.pro2.repo}
 					dis1={user.pro2.dis}
 					pic2={user.pro3.pic}
 					alt2={user.pro3.title}
 					title2={user.pro3.title}
 					dis2={user.pro3.dis}
+					link2={user.pro3.link}
+					repo2={user.pro3.repo}
 				/>
 				<Card
 					pic1={user.pro4.pic}
 					alt1={user.pro4.title}
 					title1={user.pro4.title}
 					dis1={user.pro4.dis}
+					link1={user.pro4.link}
+					repo1={user.pro4.repo}
 					pic2={user.pro5.pic}
 					alt2={user.pro5.title}
 					title2={user.pro5.title}
 					dis2={user.pro5.dis}
+					link2={user.pro5.link}
+					repo2={user.pro5.repo}
 				/>
 			</div>
 		</section>
