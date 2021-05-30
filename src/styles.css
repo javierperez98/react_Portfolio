@@ -35,6 +35,10 @@
 	);
 }
 
+.custom-border {
+	border: solid 5px var(--bs-info);
+}
+
 .text-bootstrap {
 	color: #7853b3;
 }
@@ -250,7 +254,7 @@ sup {
 
 a {
 	color: var(--bs-info);
-	text-decoration: underline;
+	text-decoration: none;
 }
 a:hover {
 	color: #50817e;
@@ -11592,7 +11596,7 @@ body {
 @media (min-width: 992px) {
 	.projects-section .featured-text {
 		padding: 0 0 0 2rem;
-		border-left: 0.5rem solid #64a19d;
+		border-left: 0.5rem solid var(--bs-info);
 	}
 }
 .projects-section .project-text {
