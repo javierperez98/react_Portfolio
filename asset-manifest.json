@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react_Portfolio/static/css/main.a366de16.chunk.css",
-    "main.js": "/react_Portfolio/static/js/main.32e3601a.chunk.js",
-    "main.js.map": "/react_Portfolio/static/js/main.32e3601a.chunk.js.map",
+    "main.css": "/react_Portfolio/static/css/main.7bc36290.chunk.css",
+    "main.js": "/react_Portfolio/static/js/main.4cdaab04.chunk.js",
+    "main.js.map": "/react_Portfolio/static/js/main.4cdaab04.chunk.js.map",
     "runtime-main.js": "/react_Portfolio/static/js/runtime-main.4cceba1c.js",
     "runtime-main.js.map": "/react_Portfolio/static/js/runtime-main.4cceba1c.js.map",
     "static/css/2.61b4cb56.chunk.css": "/react_Portfolio/static/css/2.61b4cb56.chunk.css",
@@ -10,12 +10,12 @@
     "static/js/2.ad52a29a.chunk.js.map": "/react_Portfolio/static/js/2.ad52a29a.chunk.js.map",
     "index.html": "/react_Portfolio/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/react_Portfolio/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.a366de16.chunk.css.map": "/react_Portfolio/static/css/main.a366de16.chunk.css.map",
+    "static/css/main.7bc36290.chunk.css.map": "/react_Portfolio/static/css/main.7bc36290.chunk.css.map",
     "static/js/2.ad52a29a.chunk.js.LICENSE.txt": "/react_Portfolio/static/js/2.ad52a29a.chunk.js.LICENSE.txt",
     "static/media/cache-app.16319ded.png": "/react_Portfolio/static/media/cache-app.16319ded.png",
     "static/media/employee-directory.a5db4e04.png": "/react_Portfolio/static/media/employee-directory.a5db4e04.png",
     "static/media/fitness-tracker.016bf1b7.png": "/react_Portfolio/static/media/fitness-tracker.016bf1b7.png",
-    "static/media/styles.css": "/react_Portfolio/static/media/mast.e73c8ae2.png",
+    "static/media/style.css": "/react_Portfolio/static/media/mast.e73c8ae2.png",
     "static/media/self.70b66618.png": "/react_Portfolio/static/media/self.70b66618.png",
     "static/media/tech-blog.e56c6b46.png": "/react_Portfolio/static/media/tech-blog.e56c6b46.png",
     "static/media/weather-page.007b058f.png": "/react_Portfolio/static/media/weather-page.007b058f.png"
@@ -24,7 +24,7 @@
     "static/js/runtime-main.4cceba1c.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.ad52a29a.chunk.js",
-    "static/css/main.a366de16.chunk.css",
-    "static/js/main.32e3601a.chunk.js"
+    "static/css/main.7bc36290.chunk.css",
+    "static/js/main.4cdaab04.chunk.js"
   ]
 }
