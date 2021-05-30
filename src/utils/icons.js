@@ -1,4 +1,4 @@
-const arr = [
+const icons = [
 	{ icon: "fab fa-html5", color: "text-danger" },
 	{ icon: "fab fa-css3-alt", color: "text-primary" },
 	{ icon: "fab fa-js-square", color: "text-js" },
@@ -13,4 +13,4 @@ const arr = [
 	{ icon: "fas fa-server", color: "text-white" },
 ];
 
-export default arr;
+export default icons;
