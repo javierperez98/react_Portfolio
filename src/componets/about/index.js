@@ -22,7 +22,9 @@ function About() {
 							<p className="text-white-50 mb-5">{user.bio}</p>
 						</div>
 					</div>
-					<div className="row p-3">
+				</Fade>
+				<div className="row p-3">
+					<Fade bottom delay={500}>
 						<div className="col-md-6 pb-5 text-center">
 							<img
 								className="img-fluid rounded-circle col-8 col-lg-6"
@@ -38,7 +40,9 @@ function About() {
 								</div>
 							))}
 						</div>
-						<div className="col-12">
+					</Fade>
+					<div className="col-12">
+						<Fade bottom delay={500}>
 							<h2 className="text-white text-center">Skills</h2>
 							<div className="text-center">
 								{icons.map((icons) => (
@@ -48,9 +52,9 @@ function About() {
 									></i>
 								))}
 							</div>
-						</div>
+						</Fade>
 					</div>
-				</Fade>
+				</div>
 			</div>
 		</section>
 	);
