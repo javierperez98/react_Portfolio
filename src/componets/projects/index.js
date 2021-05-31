@@ -12,20 +12,34 @@ function Projects() {
 				<div className="row gx-0 mb-4 mb-lg-5 align-items-center">
 					<Fade left delay={500}>
 						<div className="col-xl-8 col-lg-7">
-							<a href={user.pro1.link} target="__blank">
-								<img
-									className="img-fluid mb-3 mb-lg-0"
-									src={user.pro1.pic}
-									alt={user.pro1.title}
-								/>
-							</a>
+							<img
+								className="img-fluid mb-3 mb-lg-0"
+								src={user.pro1.pic}
+								alt={user.pro1.title}
+							/>
 						</div>
 						<div className="col-xl-4 col-lg-5">
 							<div className="featured-text text-center text-lg-left">
-								<a href={user.pro1.repo} target="__blank">
-									<h4>{user.pro1.title}</h4>
-								</a>
-								<p className="text-black-50 mb-0">{user.pro1.dis}</p>
+								<h4>{user.pro1.title}</h4>
+								<p className="text-black-50 mb-3">{user.pro1.dis}</p>
+								<div className="row d-flex justify-content-evenly">
+									<a
+										href={user.pro1.link}
+										target="__blank"
+										type="button"
+										className="btn btn-black col-5 p-1"
+									>
+										Site
+									</a>
+									<a
+										href={user.pro1.repo}
+										target="__blank"
+										type="button"
+										className="btn btn-black col-5 p-1"
+									>
+										Repo
+									</a>
+								</div>
 							</div>
 						</div>
 					</Fade>

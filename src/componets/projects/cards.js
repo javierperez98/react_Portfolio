@@ -19,19 +19,33 @@ function Card({
 			<Fade right delay={500}>
 				<div className="row gx-0 mb-5 mb-lg-0 justify-content-center">
 					<div className="col-lg-6">
-						<a href={link1} target="__blank">
-							<img className="img-fluid custom-border" src={pic1} alt={alt1} />
-						</a>
+						<img className="img-fluid custom-border" src={pic1} alt={alt1} />
 					</div>
 					<div className="col-lg-6">
 						<div className="bg-black text-center h-100 project">
 							<div className="d-flex h-100">
 								<div className="project-text w-100 my-auto text-center text-lg-left">
-									<a href={repo1} target="__blank">
-										<h4 className="text-white">{title1}</h4>
-									</a>
+									<h4 className="text-white">{title1}</h4>
 									<p className="mb-0 text-white-50">{dis1}</p>
 									<hr className="d-none d-lg-block mb-0 ms-0" />
+									<div className="row d-flex justify-content-evenly">
+										<a
+											href={link1}
+											target="__blank"
+											type="button"
+											className="btn btn-light col-5 p-1"
+										>
+											Site
+										</a>
+										<a
+											href={repo1}
+											target="__blank"
+											type="button"
+											className="btn btn-light col-5 p-1"
+										>
+											Repo
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -41,19 +55,33 @@ function Card({
 			<Fade left delay={500}>
 				<div className="row gx-0 justify-content-center">
 					<div className="col-lg-6">
-						<a href={link2} target="__blank">
-							<img className="img-fluid custom-border" src={pic2} alt={alt2} />
-						</a>
+						<img className="img-fluid custom-border" src={pic2} alt={alt2} />
 					</div>
 					<div className="col-lg-6 order-lg-first">
 						<div className="bg-black text-center h-100 project">
 							<div className="d-flex h-100">
 								<div className="project-text w-100 my-auto text-center text-lg-right">
-									<a href={repo2} target="__blank">
-										<h4 className="text-white">{title2}</h4>
-									</a>
+									<h4 className="text-white">{title2}</h4>
 									<p className="mb-0 text-white-50">{dis2}</p>
 									<hr className="d-none d-lg-block mb-0 me-0" />
+									<div className="row d-flex justify-content-evenly">
+										<a
+											href={link2}
+											target="__blank"
+											type="button"
+											className="btn btn-light col-5 p-1"
+										>
+											Site
+										</a>
+										<a
+											href={repo2}
+											target="__blank"
+											type="button"
+											className="btn btn-light col-5 p-1"
+										>
+											Repo
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
