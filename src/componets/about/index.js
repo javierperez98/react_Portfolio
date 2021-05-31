@@ -18,7 +18,10 @@ function About() {
 				<Fade bottom delay={500}>
 					<div className="row gx-4 gx-lg-5 justify-content-center">
 						<div className="col-lg-8">
-							<h2 className="text-white mb-4 text-center">About Me</h2>
+							<h2 className="text-white mb-4 text-center">
+								<i className="fas fa-chevron-left" /> About Me /
+								<i className="fas fa-chevron-right" />
+							</h2>
 							<p className="text-white-50 mb-5">{user.bio}</p>
 						</div>
 					</div>

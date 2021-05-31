@@ -17,13 +17,16 @@ function Header() {
 				<Fade bottom cascade delay={500}>
 					<div className="d-flex justify-content-center">
 						<div className="text-center">
-							<h1 className="mx-auto my-0 text-uppercase">{user.name}</h1>
+							<h1 className="mx-auto my-0 text-uppercase">
+								<i className="fas fa-terminal" />
+								{user.name}
+							</h1>
 							<h2 className="text-white-50 mx-auto mt-2 mb-5">
-								<i className="fas fa-chevron-left" /> {user.title}{" "}
+								<i className="fas fa-chevron-left" /> {user.title} /
 								<i className="fas fa-chevron-right" />
 							</h2>
 							<a className="btn btn-light p-3 rounded-circle" href="#about">
-								<i className="fas fa-chevron-down fa-3x"></i>
+								<i className="fas fa-chevron-down fa-3x" />
 							</a>
 						</div>
 					</div>

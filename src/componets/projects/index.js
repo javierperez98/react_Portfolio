@@ -7,7 +7,10 @@ function Projects() {
 		<section className="projects-section bg-light" id="projects">
 			<div className="container px-4 px-lg-5">
 				<Fade bottom delay={500}>
-					<h2 className="mb-4 text-center">Projects</h2>
+					<h2 className="mb-4 text-center">
+						<i className="fas fa-chevron-left" /> Projects /
+						<i className="fas fa-chevron-right" />
+					</h2>
 				</Fade>
 				<div className="row gx-0 mb-4 mb-lg-5 align-items-center">
 					<Fade left delay={500}>
