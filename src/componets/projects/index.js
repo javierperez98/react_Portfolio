@@ -26,7 +26,7 @@ function Projects() {
 								<h4>{user.pro1.title}</h4>
 								<p className="text-black-50 mb-3">{user.pro1.dis}</p>
 								<p className="mb-3">{user.pro1.lang}</p>
-								<div className="row d-flex justify-content-evenly">
+								<div className="row d-flex justify-content-evenly col-9 mx-auto">
 									<a
 										href={user.pro1.link}
 										target="__blank"
