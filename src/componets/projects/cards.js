@@ -19,7 +19,7 @@ function Card({
 	return (
 		<>
 			<Fade right delay={500}>
-				<div className="row gx-0 mb-lg-5 mb-lg-0 justify-content-center">
+				<div className="row gx-0 mb-lg-0 justify-content-center mb-lg-0 mb-5">
 					<div className="col-lg-6">
 						<img className="img-fluid custom-border" src={pic1} alt={alt1} />
 					</div>
@@ -30,7 +30,7 @@ function Card({
 									<h4 className="text-white">{title1}</h4>
 									<p className="mb-0 text-white-50">{dis1}</p>
 									<p className="my-3">{langs1}</p>
-									<div className="row d-flex justify-content-evenly">
+									<div className="row d-flex justify-content-evenly col-9 mx-auto">
 										<a
 											href={link1}
 											target="__blank"
@@ -55,7 +55,7 @@ function Card({
 				</div>
 			</Fade>
 			<Fade left delay={500}>
-				<div className="row gx-0 justify-content-center">
+				<div className="row gx-0 justify-content-center mb-lg-0 mb-5">
 					<div className="col-lg-6">
 						<img className="img-fluid custom-border" src={pic2} alt={alt2} />
 					</div>
@@ -66,7 +66,7 @@ function Card({
 									<h4 className="text-white">{title2}</h4>
 									<p className="mb-0 text-white-50">{dis2}</p>
 									<p className="my-3">{langs2}</p>
-									<div className="row d-flex justify-content-evenly">
+									<div className="row d-flex justify-content-evenly col-9 mx-auto">
 										<a
 											href={link2}
 											target="__blank"
