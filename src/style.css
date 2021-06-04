@@ -809,7 +809,7 @@ button:not(:disabled) {
 .nav-link {
 	display: block;
 	padding: 0.5rem 1rem;
-	color: #64a19d;
+	color: rgba(0, 0, 0, 0.55);
 	text-decoration: none;
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
 		border-color 0.15s ease-in-out;
@@ -2621,7 +2621,7 @@ body {
 }
 @media (min-width: 992px) {
 	.projects-section .project-text {
-		padding: 5rem;
+		padding: 1rem;
 	}
 	.projects-section .project-text hr {
 		border-color: #64a19d;
