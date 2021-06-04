@@ -25,6 +25,7 @@ function Projects() {
 							<div className="featured-text text-center text-lg-left">
 								<h4>{user.pro1.title}</h4>
 								<p className="text-black-50 mb-3">{user.pro1.dis}</p>
+								<p className="mb-3">{user.pro1.lang}</p>
 								<div className="row d-flex justify-content-evenly">
 									<a
 										href={user.pro1.link}
@@ -54,12 +55,14 @@ function Projects() {
 					link1={user.pro2.link}
 					repo1={user.pro2.repo}
 					dis1={user.pro2.dis}
+					langs1={user.pro2.lang}
 					pic2={user.pro3.pic}
 					alt2={user.pro3.title}
 					title2={user.pro3.title}
 					dis2={user.pro3.dis}
 					link2={user.pro3.link}
 					repo2={user.pro3.repo}
+					langs2={user.pro3.lang}
 				/>
 				<Card
 					pic1={user.pro4.pic}
@@ -68,12 +71,14 @@ function Projects() {
 					dis1={user.pro4.dis}
 					link1={user.pro4.link}
 					repo1={user.pro4.repo}
+					langs1={user.pro4.lang}
 					pic2={user.pro5.pic}
 					alt2={user.pro5.title}
 					title2={user.pro5.title}
 					dis2={user.pro5.dis}
 					link2={user.pro5.link}
 					repo2={user.pro5.repo}
+					langs2={user.pro5.lang}
 				/>
 			</div>
 		</section>
