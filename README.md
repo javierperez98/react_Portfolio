@@ -9,9 +9,13 @@
 <p align="center">
     <img src="https://img.shields.io/badge/language-Javascript-yellow" />
     <img src="https://img.shields.io/badge/language-React-blue" />
+    <img src="https://img.shields.io/badge/language-Bootstrap-purple" />
     <img src="https://img.shields.io/badge/license-MIT-blue" />
     <img src="https://img.shields.io/tokei/lines/github/javierperez98/react_Portfolio" />
 </p>
+
+<a href="https://javierperez98.github.io/react_Portfolio/"><h1 align="center">Deployed Webpage</h1></a>
+
 
 ## `Description`
 
