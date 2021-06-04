@@ -11,6 +11,7 @@ const icons = [
 	{ icon: "fab fa-github", color: "text-github" },
 	{ icon: "fas fa-database", color: "text-secondary" },
 	{ icon: "fas fa-server", color: "text-white" },
+  { icon:"fab fa-python", color:"text-warning" },
 ];
 
 export default icons;
