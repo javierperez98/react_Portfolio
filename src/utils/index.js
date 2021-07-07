@@ -61,15 +61,15 @@ const user = {
 		),
 	},
 	pro4: {
-		link: "https://tech-blog-jp.herokuapp.com/",
-		repo: "https://github.com/javierperez98/Tech_Blog",
-		pic: pics.TechBlog,
-		title: "TechBlog App",
-		dis: "Sign up and post to the Blog site! You can create and view posts.",
+		link: "https://javierperez98.github.io/passwordGenerator/",
+		repo: "https://github.com/javierperez98/passwordGenerator",
+		pic: pics.PasswordGen,
+		title: "Password Generator",
+		dis: "Create a super secure and random password.",
 		lang: (
 			<>
-				<i className="fas fa-database text-secondary p-1 fa-2x" />
-				<i className="fab fa-node-js text-success p-1 fa-2x" />
+				<i className="fab fa-html5 text-danger p-1 fa-2x" />
+				<i className="fab fa-bootstrap text-bootstrap p-1 fa-2x" />
 				<i className="fab fa-js-square text-js p-1 fa-2x" />
 			</>
 		),
