@@ -14,7 +14,7 @@ function Contact() {
 			title: "GitHub",
 			link: user.github.link,
 			text: user.github.user,
-			icon: "fa fa-github",
+			icon: "fab fa-github",
 		},
 		{
 			title: "Email",
