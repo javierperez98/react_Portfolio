@@ -7,22 +7,21 @@
     <a href="https://github.com/javierperez98"><img src="https://img.shields.io/github/followers/javierperez98?style=social" target="_blank" /></a>
 </p>
 <p align="center">
-    <img src="https://img.shields.io/badge/language-Javascript-yellow" />
     <img src="https://img.shields.io/badge/language-React-blue" />
-    <img src="https://img.shields.io/badge/language-Bootstrap-purple" />
+    <img src="https://img.shields.io/badge/language-Sass-purple" />
+    <img src="https://img.shields.io/badge/language-Typescript-blue" />
     <img src="https://img.shields.io/badge/license-MIT-blue" />
     <img src="https://img.shields.io/tokei/lines/github/javierperez98/react_Portfolio" />
 </p>
 
 <a href="https://javierperez98.github.io/react_Portfolio/"><h1 align="center">Deployed Webpage</h1></a>
 
-
 ## `Description`
 
 <!-- Provide a short description explaining the what, why, and how of your project.
 What was your motivation? Why did you build this project? What problem does it solve? What did you learn? -->
 
-- My portfilo was created using React.js and Bootstrap v4. I really enjoyed testing myself to build a layout and design from scratch using what I know about Bootstrap and using a frame work like React.js to make it componet based.
+- My portfilo was created using React.js, Typescript and Sass.
 
 ## `Table of Contents`
 
@@ -50,7 +49,7 @@ git clone git@github.com:javierperez98/react_Portfolio.git
 git clone https://github.com/javierperez98/react_Portfolio.git
 ```
 
-Next you'll have to install all the required node modules by opening the index.js file using terminal/bash and typing in the following command.
+Next you'll have to install all the required node modules by opening the terminal/bash and typing in the following command.
 
 ```md
 npm i
@@ -64,9 +63,9 @@ npm start
 
 <!-- Provide instructions and examples for use. Include screenshots as needed. -->
 
-- The Navbar has links to jump to each section in my portfolio. There is a link to my resume.
-- The about me section goes over a little bit about myself. It shows the programing languages and tools I know.
-- My projects section shows two of my group projects and three app I created each using languages I know or a combination of them all.
+- The first section displays a link to my resume and to contact me. Along with links to my LinkedIn and Github.
+- The Navbar has links to jump to each section in my portfolio.
+- The about me section goes over a little bit about myself. It shows the major programing languages know.
 - The contact me section have links to my github profile, linkedin, and email to contact me.
 
 ## `Credits`
@@ -74,13 +73,11 @@ npm start
 <!-- List your collaborators, if any, with links to their GitHub profiles. Links to websites or resources. -->
 
 - https://www.google.com
-- https://developer.mozilla.org/en-US
-- https://getbootstrap.com
-- https://www.w3schools.com
-- https://dev.to/
 - https://create-react-app.dev/
-- https://reactrouter.com/web/guides/quick-start
 - https://reactjs.org/
+- https://react-icons.github.io/react-icons
+- https://www.typescriptlang.org/
+- https://sass-lang.com/
 - https://stackoverflow.com/
 
 ## `License`
@@ -89,7 +86,7 @@ npm start
 
 MIT License
 
-Copyright (c) 2021 [Javier Perez]
+Copyright (c) 2022 [Javier Perez]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
