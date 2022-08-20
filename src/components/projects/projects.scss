@@ -1,1 +1,47 @@
 @import "../../vars.scss";
+
+.project{
+  &-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+  &-card {
+    background: $color-bg-var;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: $trans;
+    &:hover {
+      border-color: $color-prime-var;
+      background: transparent;
+    }
+    h3 {
+      margin: 1.5rem 0 2rem;
+    }
+  }
+  &-img {
+    border-radius: 1.5rem;
+    overflow: hidden;
+  }
+  &-about {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project {
+    &-container {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .project {
+    &-container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+}

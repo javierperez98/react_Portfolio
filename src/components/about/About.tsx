@@ -47,7 +47,7 @@ export const About = () => {
           <p>
             Hello my name is Javier and I’m a Full Stack web developer from
             South Florida. Prior to my career in Web Development, I served four
-            year active duty in the US Navy. I then enrolled at the University
+            years active duty in the US Navy. I then enrolled at the University
             of California San Diego’s Coding Bootcamp where I earned a
             Certificate in Full Stack Web Development. My passion is technology
             and computers. I love coding, exploring new languages and their
