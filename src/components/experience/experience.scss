@@ -1,1 +1,66 @@
 @import "../../vars.scss";
+
+.exp {
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  &-card {
+    background: $color-bg-var;
+    padding: 2.5rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: $trans;
+    &:hover{
+      background: transparent;
+      border-color: $color-prime-var;
+      cursor: default;
+    }
+  }
+  &-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: $color-prime;
+  }
+  &-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+  &-details {
+    display: flex;
+    gap: 1rem;
+  }
+  &-icon {
+    margin-top: 6px;
+    color: $color-prime;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .exp {
+    &-container{
+      grid-template-columns: 1fr;
+    }
+    &-card {
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
+    }
+    &-content {
+      padding: 1rem;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .exp {
+    &-container{
+      gap: 1rem;
+    }
+    &-card {
+      width: 100%;
+      padding: 2rem 1rem;
+    }
+  }
+}
