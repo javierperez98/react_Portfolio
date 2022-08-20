@@ -25,32 +25,32 @@ export const Experience = () => {
       title: "Frontend Development",
       skills: [
         {
-          icon: <SiTypescript size={25} className="exp-icon" />,
+          icon: <SiTypescript className="exp-icon" />,
           lang: "Typescript",
           exp: lvl.e,
         },
         {
-          icon: <SiVuedotjs size={25} className="exp-icon" />,
+          icon: <SiVuedotjs className="exp-icon" />,
           lang: "Vue.js",
           exp: lvl.e,
         },
         {
-          icon: <SiReact size={25} className="exp-icon" />,
+          icon: <SiReact className="exp-icon" />,
           lang: "React,js",
           exp: lvl.i,
         },
         {
-          icon: <SiJavascript size={25} className="exp-icon" />,
+          icon: <SiJavascript className="exp-icon" />,
           lang: "Javascript",
           exp: lvl.e,
         },
         {
-          icon: <SiSass size={25} className="exp-icon" />,
+          icon: <SiSass className="exp-icon" />,
           lang: "Sass",
           exp: lvl.e,
         },
         {
-          icon: <SiBootstrap size={25} className="exp-icon" />,
+          icon: <SiBootstrap className="exp-icon" />,
           lang: "Bootstrap",
           exp: lvl.e,
         },
@@ -60,32 +60,32 @@ export const Experience = () => {
       title: "Backend Development",
       skills: [
         {
-          icon: <SiPython size={25} className="exp-icon" />,
+          icon: <SiPython className="exp-icon" />,
           lang: "Python",
           exp: lvl.i,
         },
         {
-          icon: <SiNodedotjs size={25} className="exp-icon" />,
+          icon: <SiNodedotjs className="exp-icon" />,
           lang: "Node.js",
           exp: lvl.i,
         },
         {
-          icon: <SiDelphi size={25} className="exp-icon" />,
+          icon: <SiDelphi className="exp-icon" />,
           lang: "Delphi",
           exp: lvl.b,
         },
         {
-          icon: <SiMongodb size={25} className="exp-icon" />,
+          icon: <SiMongodb className="exp-icon" />,
           lang: "MongoDB",
           exp: lvl.i,
         },
         {
-          icon: <SiMysql size={25} className="exp-icon" />,
+          icon: <SiMysql className="exp-icon" />,
           lang: "MySQL",
           exp: lvl.i,
         },
         {
-          icon: <SiExpress size={25} className="exp-icon" />,
+          icon: <SiExpress className="exp-icon" />,
           lang: "Express.js",
           exp: lvl.i,
         },
@@ -97,7 +97,7 @@ export const Experience = () => {
     <section id="experience">
       <h5>What Skills I have</h5>
       <h2>My Experience</h2>
-      <div className="container exp-container">
+      <div className="con exp-con">
         {cards.map((card, index) => {
           return (
             <div key={index} className="exp-card">
