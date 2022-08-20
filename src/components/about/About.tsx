@@ -1,16 +1,7 @@
 import "./about.scss";
 import self from "../../assets/me-about.jpg";
-import { FaAward, FaCode } from "react-icons/fa";
-import { MdSchool } from "react-icons/md";
-import {
-  SiReact,
-  SiVuedotjs,
-  SiPython,
-  SiTypescript,
-  SiJavascript,
-  SiBootstrap,
-  SiSass,
-} from "react-icons/si";
+import { FaAward } from "react-icons/fa";
+import { MdSchool, MdPerson } from "react-icons/md";
 
 export const About = () => {
   const yearsExp = new Date().getFullYear() - 2021;
@@ -26,19 +17,9 @@ export const About = () => {
       text: "UCSD Coding Bootcamp",
     },
     {
-      icon: <FaCode className="about-icon" size={25} />,
-      title: "Languages",
-      text: (
-        <>
-          <SiTypescript size={20} />
-          <SiReact size={20} />
-          <SiVuedotjs size={20} />
-          <SiPython size={20} />
-          <SiJavascript size={20} />
-          <SiBootstrap size={20} />
-          <SiSass size={20} />
-        </>
-      ),
+      icon: <MdPerson className="about-icon" size={25} />,
+      title: "Background",
+      text: "Military Veteran",
     },
   ];
   return (
@@ -64,10 +45,13 @@ export const About = () => {
             })}
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            delectus voluptate minima! Totam sed temporibus suscipit optio. Et
-            libero saepe porro doloribus ipsam a, dicta, totam dolore sint earum
-            harum!
+            Hello my name is Javier and I’m a Full Stack web developer from
+            South Florida. Prior to my career in Web Development, I served four
+            year active duty in the US Navy. I then enrolled at the University
+            of California San Diego’s Coding Bootcamp where I earned a
+            Certificate in Full Stack Web Development. My passion is technology
+            and computers. I love coding, exploring new languages and their
+            possibilities.
           </p>
           <a href="#contact" className="btn btn-prime">
             Contact me

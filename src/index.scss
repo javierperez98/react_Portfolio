@@ -45,8 +45,8 @@ h1 {
 }
 
 section {
+  padding-top: 2rem;
   margin-top: 8rem;
-  height: 100vh;
   & > h2 {
     text-align: center;
     color: $color-prime;
