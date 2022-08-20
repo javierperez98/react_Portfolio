@@ -1,5 +1,5 @@
 import "./about.scss";
-import self from "../../assets/me-about.jpg";
+import self from "../../assets/me-about.png";
 import { FaAward } from "react-icons/fa";
 import { MdSchool, MdPerson } from "react-icons/md";
 
