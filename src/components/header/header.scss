@@ -6,7 +6,7 @@ header {
   overflow: hidden;
 }
 
-.header-container {
+.header-con {
   text-align: center;
   height: 100%;
   position: relative;
@@ -66,7 +66,8 @@ header {
   header {
     height: 100vh;
   }
-  .social-icons, .scroll-down {
+  .social-icons,
+  .scroll-down {
     display: none;
   }
 }

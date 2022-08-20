@@ -27,8 +27,8 @@ body {
   background-image: url(../src/assets/bg-texture.png);
 }
 
-.container {
-  width: $container-w-lg;
+.con {
+  width: $con-w-lg;
   margin: 0 auto;
 }
 
@@ -94,7 +94,6 @@ a {
   }
 }
 
-
 img {
   display: block;
   width: 100%;
@@ -102,16 +101,16 @@ img {
 }
 
 @media screen and (max-width: 1024px) {
-  .container {
-    width: $container-w-md;
+  .con {
+    width: $con-w-md;
   }
   .section {
     margin-top: 6rem;
   }
 }
 @media screen and (max-width: 600px) {
-  .container {
-    width: $container-w-sm;
+  .con {
+    width: $con-w-sm;
   }
   .section > h2 {
     margin-bottom: 2rem;

@@ -1,7 +1,7 @@
 @import "../../vars.scss";
 
-.project{
-  &-container {
+.project {
+  &-con {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 1024px) {
   .project {
-    &-container {
+    &-con {
       grid-template-columns: 1fr 1fr;
       gap: 1.5rem;
     }
@@ -39,7 +39,7 @@
 }
 @media screen and (max-width: 600px) {
   .project {
-    &-container {
+    &-con {
       grid-template-columns: 1fr;
       gap: 1rem;
     }

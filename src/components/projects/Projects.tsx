@@ -1,9 +1,9 @@
+import "./projects.scss";
 import PassGen from "../../assets/passGen.png";
 import I18n from "../../assets/vuei18n.png";
 import Email from "../../assets/email.png";
 import Mayo from "../../assets/mayo.png";
 import Weather from "../../assets/weather.png";
-import "./projects.scss";
 
 export const Projects = () => {
   const projects = [
@@ -37,7 +37,7 @@ export const Projects = () => {
     <section id="projects">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
-      <div className="container project-container">
+      <div className="con project-con">
         {projects.map((project, index) => {
           return (
             <div key={index} className="project-card">

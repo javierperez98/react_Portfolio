@@ -14,7 +14,7 @@ nav {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
-  & a{
+  & a {
     background: transparent;
     padding: 1rem;
     border-radius: 50%;
@@ -28,4 +28,8 @@ nav {
       color: $color-white;
     }
   }
+}
+
+.nav-icon {
+  font-size: 1.25rem;
 }

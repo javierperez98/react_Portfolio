@@ -26,7 +26,7 @@ export const About = () => {
     <section id="about">
       <h5>Get to know me</h5>
       <h2>About me</h2>
-      <div className="container about-container">
+      <div className="con about-con">
         <div className="about-me">
           <div className="about-me-img">
             <img src={self} alt="self" />
