@@ -1,5 +1,5 @@
 import "./footer.scss";
-import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 
 export const Footer = () => {
   return (
@@ -31,8 +31,8 @@ export const Footer = () => {
         <a href="https://github.com/javierperez98">
           <BsGithub />
         </a>
-        <a href="https://www.instagram.com/stavi_javi">
-          <BsInstagram />
+        <a href="https://twitter.com/Eniqma21">
+          <BsTwitter />
         </a>
       </div>
       <div className="footer-cr">
