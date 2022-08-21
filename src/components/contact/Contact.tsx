@@ -1,5 +1,7 @@
 import "./contact.scss";
 import { BsEnvelopeFill, BsLinkedin, BsGithub } from "react-icons/bs";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
   const options = [
@@ -25,6 +27,31 @@ export const Contact = () => {
       linkText: "Go Follow me",
     },
   ];
+
+  const form = useRef<HTMLFormElement>(null);
+  const sendEmail = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const fc = form.current;
+    if (!fc) return;
+    const obj = {
+      fullName: fc.fullName.value,
+      email: fc.email.value,
+      message: fc.message.value,
+    };
+    const res = await emailjs.send(
+      "service_aagbziy",
+      "template_9nj8p5m",
+      obj,
+      "0A7dIhL8ZVSGm4wm-"
+    );
+    try {
+      console.log(res.status, res.text);
+      form.current.reset();
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -44,7 +71,7 @@ export const Contact = () => {
             );
           })}
         </div>
-        <form className="contact-form" action="">
+        <form ref={form} className="contact-form" onSubmit={sendEmail}>
           <input
             className="contact-name"
             type="text"
