@@ -1,1 +1,63 @@
 @import "../../vars.scss";
+
+.footer {
+  background: $color-prime;
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 7rem;
+  &-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+  }
+  & a {
+    color: $color-bg;
+    &:hover {
+      color: $color-white;
+    }
+  }
+  &-logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+  }
+  &-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+    & a {
+      background: $color-bg;
+      color: $color-white;
+      padding: 1rem;
+      border-radius: 1rem;
+      display: flex;
+      border: 2px solid transparent;
+      &:hover {
+        background: transparent;
+        color: $color-bg;
+        border-color: $color-bg;
+      }
+    }
+  }
+  &-cr {
+    margin-bottom: 5rem;
+    color: $color-bg;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    &-links {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    &-socials {
+      margin-bottom: 2.5rem;
+    }
+  }
+}
