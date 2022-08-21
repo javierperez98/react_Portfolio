@@ -7,8 +7,8 @@ export const Contact = () => {
   const options = [
     {
       icon: <BsEnvelopeFill className="contact-option-icon" />,
-      title: "Email",
-      text: "javier21perez98@gmail.com",
+      title: "Gmail",
+      text: "javier21perez98",
       linkUrl: "mailto:javier21perez98@gmail.com",
       linkText: "Send an email",
     },
