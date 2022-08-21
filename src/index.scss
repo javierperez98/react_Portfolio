@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import "./vars.scss";
+
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-var: #2c2c6c;
+  --color-prime: #4db5ff;
+  --color-prime-var: #4db5ff80;
+  --color-white: #ffffff;
+  --color-light: #ffffff80;
+  --con-w-lg: 75%;
+  --con-w-md: 85%;
+  --con-w-sm: 90%;
+  --trans: all 400ms ease;
+}
 
 * {
   margin: 0;
@@ -21,14 +33,14 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: $color-bg;
-  color: $color-white;
-  line-height: 1.7;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.5;
   background-image: url(../src/assets/bg-texture.png);
 }
 
 .con {
-  width: $con-w-lg;
+  width: var(--con-w-lg);
   margin: 0 auto;
 }
 
@@ -49,47 +61,47 @@ section {
   margin-top: 8rem;
   & > h2 {
     text-align: center;
-    color: $color-prime;
+    color: var(--color-prime);
     margin-bottom: 3rem;
   }
   & > h5 {
     text-align: center;
-    color: $color-light;
+    color: var(--color-light);
   }
 }
 
 .text-light {
-  color: $color-light;
+  color: var(--color-light);
 }
 
 a {
-  color: $color-prime;
-  transition: $trans;
+  color: var(--color-prime);
+  transition: var(--trans);
   &:hover {
-    color: $color-white;
+    color: var(--color-white);
   }
 }
 
 .btn {
   width: max-content;
   display: inline-block;
-  color: $color-prime;
-  padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
+  color: var(--color-prime);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
   cursor: pointer;
-  border: 1px solid $color-prime;
-  transition: $trans;
-  background-color: $color-bg;
-  color: $color-prime;
+  border: 1px solid var(--color-prime);
+  transition: var(--trans);
+  background-color: var(--color-bg);
+  color: var(--color-prime);
 
   &-prime {
-    background-color: $color-prime;
-    color: $color-bg;
+    background-color: var(--color-prime);
+    color: var(--color-bg);
   }
 
   &:hover {
-    background-color: $color-white;
-    color: $color-bg;
+    background-color: var(--color-white);
+    color: var(--color-bg);
     border-color: transparent;
   }
 }
@@ -102,7 +114,7 @@ img {
 
 @media screen and (max-width: 1024px) {
   .con {
-    width: $con-w-md;
+    width: var(--con-w-md);
   }
   .section {
     margin-top: 6rem;
@@ -110,7 +122,7 @@ img {
 }
 @media screen and (max-width: 600px) {
   .con {
-    width: $con-w-sm;
+    width: var(--con-w-sm);
   }
   .section > h2 {
     margin-bottom: 2rem;

@@ -1,5 +1,3 @@
-@import "../../vars.scss";
-
 nav {
   background: rgb(0, 0, 0, 0.3);
   width: max-content;
@@ -19,13 +17,13 @@ nav {
     padding: 1rem;
     border-radius: 50%;
     display: flex;
-    color: $color-light;
+    color: var(--color-light);
     &:hover {
       background: rgba(0, 0, 0, 0.3);
     }
     &.active {
-      background: $color-prime;
-      color: $color-bg;
+      background: var(--color-prime);
+      color: var(--color-bg);
     }
   }
 }

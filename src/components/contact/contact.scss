@@ -1,5 +1,3 @@
-@import "../../vars.scss";
-
 .con.contact-con {
   width: 58%;
   display: grid;
@@ -14,15 +12,15 @@
     gap: 1.5rem;
   }
   &-option {
-    background: $color-bg-var;
+    background: var(--color-bg-var);
     padding: 1.5rem;
     border-radius: 1.5rem;
     text-align: center;
     border: 1px solid transparent;
-    transition: $trans;
+    transition: var(--trans);
     &:hover {
       background: transparent;
-      border-color: $color-prime-var;
+      border-color: var(--color-prime-var);
     }
     &-icon {
       font-size: 1.5rem;
@@ -34,7 +32,7 @@
       font-size: 1rem;
     }
     & h5 {
-      color: $color-light;
+      color: var(--color-light);
     }
   }
   &-form {
@@ -49,9 +47,9 @@
     padding: 1.5rem;
     border-radius: 1rem;
     background: transparent;
-    border: 2px solid $color-prime-var;
+    border: 2px solid var(--color-prime-var);
     resize: none;
-    color: $color-white;
+    color: var(--color-white);
   }
 }
 
@@ -63,6 +61,6 @@
 }
 @media screen and (max-width: 600px) {
   .con.contact-con {
-    width: $con-w-sm;
+    width: var(--con-w-sm);
   }
 }

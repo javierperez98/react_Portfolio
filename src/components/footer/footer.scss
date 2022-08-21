@@ -1,7 +1,5 @@
-@import "../../vars.scss";
-
 .footer {
-  background: $color-prime;
+  background: var(--color-prime);
   padding: 3rem 0;
   text-align: center;
   font-size: 1rem;
@@ -14,9 +12,9 @@
     margin: 0 auto 3rem;
   }
   & a {
-    color: $color-bg;
+    color: var(--color-bg);
     &:hover {
-      color: $color-white;
+      color: var(--color-white);
     }
   }
   &-logo {
@@ -31,22 +29,22 @@
     gap: 1rem;
     margin-bottom: 4rem;
     & a {
-      background: $color-bg;
-      color: $color-white;
+      background: var(--color-bg);
+      color: var(--color-white);
       padding: 1rem;
       border-radius: 1rem;
       display: flex;
       border: 2px solid transparent;
       &:hover {
         background: transparent;
-        color: $color-bg;
-        border-color: $color-bg;
+        color: var(--color-bg);
+        border-color: var(--color-bg);
       }
     }
   }
   &-cr {
     margin-bottom: 5rem;
-    color: $color-bg;
+    color: var(--color-bg);
   }
 }
 
