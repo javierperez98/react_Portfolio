@@ -21,7 +21,7 @@
 <!-- Provide a short description explaining the what, why, and how of your project.
 What was your motivation? Why did you build this project? What problem does it solve? What did you learn? -->
 
-- My portfilo was created using React.js, Typescript and Sass.
+- My portfolio was created using React.js, Typescript and Sass.
 
 ## `Table of Contents`
 
@@ -66,7 +66,7 @@ npm start
 - The first section displays a link to my resume and to contact me. Along with links to my LinkedIn and Github.
 - The Navbar has links to jump to each section in my portfolio.
 - The About me section goes over a little bit about myself. It shows the major programing languages know.
-- Expericence section goes over the coding languages I know and my experience level with them.
+- Experience section goes over the coding languages I know and my experience level with them.
 - Projects section displays some of the projects I have created or been a part of as a developer.
 - The contact me section have links to my github profile, linkedin, and email to contact me.
 

@@ -18,7 +18,7 @@ export const Projects = () => {
       text: "Vue.js site with translation support to dynamically set the site's language using Vue i18n.",
     },
     {
-      title: "Email Templete",
+      title: "Email Template",
       img: Email,
       text: "Fully customizable and responsive email template for desktop and mobile, supported on all email clients.",
     },
@@ -30,7 +30,7 @@ export const Projects = () => {
     {
       title: "Weather App",
       img: Weather,
-      text: "Weather Forecast site that lets you search different cities and displays a detailed 5 day forcast.",
+      text: "Weather Forecast site that lets you search different cities and displays a detailed 5 day forecast.",
     },
   ];
   return (
