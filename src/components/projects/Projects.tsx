@@ -30,7 +30,7 @@ export const Projects = () => {
     {
       title: "Weather App",
       img: Weather,
-      text: "Weather Forecast site that lets you search different cities and displays a detailed 5 day forecast.",
+      text: "Weather Forecast site that lets you search different cities and displays a detailed 8 day forecast.",
     },
   ];
   return (
