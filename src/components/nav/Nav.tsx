@@ -5,7 +5,6 @@ import {
   AiOutlineContacts,
   AiOutlineProfile,
 } from "react-icons/ai";
-import { MdWorkOutline } from "react-icons/md";
 import { useState } from "react";
 
 export const Nav = () => {
@@ -14,7 +13,6 @@ export const Nav = () => {
     { id: "#root", icon: <AiOutlineHome className="nav-icon" /> },
     { id: "#about", icon: <AiOutlineUser className="nav-icon" /> },
     { id: "#experience", icon: <AiOutlineProfile className="nav-icon" /> },
-    { id: "#projects", icon: <MdWorkOutline className="nav-icon" /> },
     { id: "#contact", icon: <AiOutlineContacts className="nav-icon" /> },
   ];
   return (
