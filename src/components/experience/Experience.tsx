@@ -4,21 +4,24 @@ import {
   SiVuedotjs,
   SiReact,
   SiJavascript,
-  SiSass,
+  SiFlutter,
+  SiSvelte,
   SiBootstrap,
+  SiTailwindcss,
   SiPython,
   SiNodedotjs,
   SiDelphi,
   SiMongodb,
   SiMysql,
   SiExpress,
+  SiFirebase,
+  SiMicrosoftsqlserver
 } from "react-icons/si";
 
 export const Experience = () => {
   enum lvl {
     e = "Experienced",
-    i = "Intermediate",
-    b = "Basic",
+    i = "Intermediate"
   }
   const cards = [
     {
@@ -35,9 +38,9 @@ export const Experience = () => {
           exp: lvl.e,
         },
         {
-          icon: <SiReact className="exp-icon" />,
-          lang: "React,js",
-          exp: lvl.i,
+          icon: <SiBootstrap className="exp-icon" />,
+          lang: "Bootstrap",
+          exp: lvl.e,
         },
         {
           icon: <SiJavascript className="exp-icon" />,
@@ -45,20 +48,45 @@ export const Experience = () => {
           exp: lvl.e,
         },
         {
-          icon: <SiSass className="exp-icon" />,
-          lang: "Sass",
-          exp: lvl.e,
+          icon: <SiReact className="exp-icon" />,
+          lang: "React,js",
+          exp: lvl.i,
         },
         {
-          icon: <SiBootstrap className="exp-icon" />,
-          lang: "Bootstrap",
-          exp: lvl.e,
+          icon: <SiFlutter className="exp-icon" />,
+          lang: "Flutter",
+          exp: lvl.i,
         },
+        {
+          icon: <SiSvelte className="exp-icon" />,
+          lang: "Svelte",
+          exp: lvl.i,
+        },
+        {
+          icon: <SiTailwindcss className="exp-icon" />,
+          lang: "Tailwind",
+          exp: lvl.i,
+        }
       ],
     },
     {
       title: "Backend Development",
       skills: [
+        {
+          icon: <SiDelphi className="exp-icon" />,
+          lang: "Delphi",
+          exp: lvl.e,
+        },
+        {
+          icon: <SiMicrosoftsqlserver className="exp-icon" />,
+          lang: "Microsoft SQL",
+          exp: lvl.e,
+        },
+        {
+          icon: <SiFirebase className="exp-icon" />,
+          lang: "FireBase",
+          exp: lvl.i,
+        },
         {
           icon: <SiPython className="exp-icon" />,
           lang: "Python",
@@ -68,11 +96,6 @@ export const Experience = () => {
           icon: <SiNodedotjs className="exp-icon" />,
           lang: "Node.js",
           exp: lvl.i,
-        },
-        {
-          icon: <SiDelphi className="exp-icon" />,
-          lang: "Delphi",
-          exp: lvl.b,
         },
         {
           icon: <SiMongodb className="exp-icon" />,
@@ -88,7 +111,7 @@ export const Experience = () => {
           icon: <SiExpress className="exp-icon" />,
           lang: "Express.js",
           exp: lvl.i,
-        },
+        }
       ],
     },
   ];
