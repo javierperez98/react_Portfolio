@@ -15,7 +15,9 @@ import {
   SiMysql,
   SiExpress,
   SiFirebase,
-  SiMicrosoftsqlserver
+  SiMicrosoftsqlserver,
+  SiDeno,
+  SiGo
 } from "react-icons/si";
 
 export const Experience = () => {
@@ -53,8 +55,8 @@ export const Experience = () => {
           exp: lvl.i,
         },
         {
-          icon: <SiFlutter className="exp-icon" />,
-          lang: "Flutter",
+          icon: <SiDeno className="exp-icon" />,
+          lang: "Deno",
           exp: lvl.i,
         },
         {
@@ -83,8 +85,8 @@ export const Experience = () => {
           exp: lvl.e,
         },
         {
-          icon: <SiFirebase className="exp-icon" />,
-          lang: "FireBase",
+          icon: <SiGo className="exp-icon" />,
+          lang: "Go",
           exp: lvl.i,
         },
         {
